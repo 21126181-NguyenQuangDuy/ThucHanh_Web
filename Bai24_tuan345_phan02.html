@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body{
+                margin: 0;
+            }
+            #wraper{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #header{
+                background-color: rgb(139, 139, 139);
+                color: #ffffff;
+                height: 100px;
+                position: fixed;
+                width: 100%;
+                justify-content: center;
+                position: absolute;
+            }
+            h1{
+                padding-left: 100px;
+                margin-bottom: 0;
+            }
+            h4{
+                padding-left: 100px;    
+                margin-top: 0;
+            }
+            #menu{
+                padding-top: 100px;
+                display: flex;
+                padding-left: 20px;
+                background-color: rgb(175, 175, 175);
+                color: #ffffff;
+                /* width: 100%; */
+            }
+            #menuItem{
+                padding: 3px;
+                padding-right: 30px;
+            }
+            #menuItem:hover{
+                color: black;
+            }
+            #center{
+                display: flex;
+            }
+            #centerRight{
+                position: absolute;
+                margin-left: 80%;
+                height: 660px;
+                border: 1px solid rgb(175, 175, 175);
+                border-width: 0 0 0 1px;
+                padding-left: 20px;
+            }
+            #centerRight h3{
+                color: rgb(247, 89, 89);
+            }
+            #centerRightItem{
+                color: rgb(247, 89, 89);
+            }
+            #centerLeft{
+                flex-direction: column;
+            }
+            #img01{
+                margin: 20px;
+                padding: 5px;
+                border: 1px solid rgb(175, 175, 175);
+                width: 230px;
+            }
+            #first{
+                display: flex;
+                width: 80%;
+            }
+            #second{
+                display: flex;
+                width: 80%;
+            }
+            #footer{
+                position: absolute;
+                width: 100%;
+                height: 30px;
+                margin-top: 180px;
+                color: #ffffff;
+                font-size: 12px;
+                background: rgb(175, 175, 175);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wraper">
+            <div id="header">
+                <!-- <div><img src="https://adina.com.vn/wp-content/uploads/2021/11/Hieu-ve-logo-trong-suot.jpg" alt="" align="left" width="120" height="auto"></div> -->
+                <div><h1>YOKO'S KITCHEN</h1></div>
+                <div><h4>JAPANESE COOKING CLASSES</h4></div>
+            </div>
+            <div id="menu">
+                <div id="menuItem">home</div>
+                <div id="menuItem">classes</div>
+                <div id="menuItem">catering</div>
+                <div id="menuItem">about</div>
+                <div id="menuItem">contact</div>
+            </div>
+            <div id="center">
+                <div id="centerLeft">
+                    <div id="first">
+                        <div id="img01">
+                            <img src="https://i.pinimg.com/564x/5f/b6/3a/5fb63ad1d592d6b32f1532fd02915708.jpg" alt="Bok Choi" width="230px" height="150px">
+                            <p style="margin: 0;">Bok Choi</p>
+                        </div>
+                        <div>
+                            <h3 style="margin: 30px 0 0 0; color: rgb(110, 110, 110);">Japanese Vegetarian</h3>
+                            <p style="margin: 0; color:rgb(247, 89, 89);">Five week course in London </p><br>
+                            A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.
+                        </div>
+                    </div>
+                    <div id="second">
+                        <div id="img01">
+                            <img src="https://i.pinimg.com/564x/91/19/e3/9119e3e1c89b24130af848e216a8fe45.jpg" alt="Teriyaki Sauce" width="230px" height="150px">
+                            <p style="margin: 0;">Teriyaki Sauce</p>
+                        </div>
+                        <div>
+                            <h3 style="margin: 30px 0 0 0; color: rgb(110, 110, 110);">Sauces Masterclass</h3>
+                            <p style="margin: 0; color:rgb(247, 89, 89);">One day workshop</p><br>
+                            An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.
+                        </div>
+                    </div>
+                </div>
+                <div id="centerRight">
+                    <div><h3>Popular Recipes</h3></div>
+                    <div id="centerRightItem">Yakitori (grilled chicken)</div>
+                    <hr>
+                    <div id="centerRightItem">Tsukune (minced chicken patties)</div>
+                    <hr>
+                    <div id="centerRightItem">Okonomijaki (savory pancakes)</div>
+                    <hr>
+                    <div id="centerRightItem">Mizutaki (chicken stew)</div>
+                    <hr>
+                    <div><h3>Contact</h3></div>
+                    <div>Yoko's Kitchen 27 Redchurch Street Shoreditch London E2 7DP</div>
+                </div>
+            </div>
+            <div id="footer">
+                <div style="padding: 7px 0 0 20px;">© 2011 Yoko's Kitchen</div>
+            </div>
+        </div>
+    </body>
+</html>

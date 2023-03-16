@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            #menu{
+                background-color: #0d90df;
+                margin: 5px;
+                width: 100px;
+                text-align: center;
+                padding: 5px;
+                color: #ffffff;
+                border-radius: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 1.3rem;
+                border: 2px dashed #ffffff;
+
+                box-shadow: 0 0 0 4px #0d90df;
+                text-shadow: -1px -1px #aa3030;
+                font-weight: normal;
+            }
+            li{
+                list-style-type: none;
+                /* display: inline; */
+                /* position: absolute; */
+            }
+            a{
+                text-decoration:none;
+            }
+            li>ul{
+                display: none;
+            }
+            li:hover ul{
+                display: block;
+                left: 125px;
+                top: 90px;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li id="menu"><a href="#">Home</a></li>
+                <li id="menu"><a href="#">Services</a></li>
+                <li id="menu"><a href="#">Products</a>
+                    <ul>
+                        <li id="menu"><a href="#">Photography</a></li>
+                        <li id="menu">
+                            <a href="#">Web & User</a>
+                            <br> <a href="#">Interface</a>
+                            <br> <a href="#">Design</a>
+                        </li>
+                        <li id="menu"><a href="#">Illustration</a></li>
+                    </ul>
+                </li>
+                <li id="menu"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
